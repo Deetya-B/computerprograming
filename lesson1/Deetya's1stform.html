@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+<style>
+h1 {
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+</style>
+</head>
+<body>
+ <form action="/action_page.pp" target="_blank">
+   <h1>HTML5 Input Types Demo</h1>
+  <section>
+    <h4>Basic Info</h4>
+     <label for="text"><b>Text</b></label><br>
+     <input type="text" id="text" name="text"><br><br>
+     <label for="password"><b>Password</b></label><br>
+     <input type="password" id="password" name="password"><br><br>
+     <label for="email"><b>Email</b></label><br>
+     <input type="email" id="email" name="email"><br><br>
+     <label for="tel"><b>Telephone</b></label><br>
+     <input type="tel" id="telephone" name="telephone" pattern="[0-9] {3}-[0-9] {3}-[0-9] {4}"><br><br>
+     <label for="url"><b>URL</b></label><br>
+     <input type="url" id="url" name="url"><br><br>
+  </section>
+  <section>
+    <h4>Numbers & Dates</h4>
+     <label for="number"><b>Number</b></label><br>
+     <input type="number" id="number" name="number"><br><br>
+     <label for="range"><b>range</b></label><br>
+     <input type="range" id="range" name="range"><br><br>
+     <label for="date"><b>Date</b></label><br>
+     <input type="date" id="date" name="date"><br><br>
+     <label for="time"><b>Time</b></label><br>
+     <input type="time" id="time" name="time"><br><br>
+     <label for="Datetime-local"><b>Datetime Local</b></label><br>
+     <input type="Datetime-local" id="Datetime-local" name="Datetime-local"><br><br>
+     <label for="month"><b>Month</b></label><br>
+     <input type="month" id="montn" name="date"><br><br>
+     <label for="week"><b>Week</b></label><br>
+     <input type="week" id="week" name="week"><br><br>
+  </section>
+  
+  <section>
+  <h4>Other Input Types</h4>
+     <label for="color picker"><b>Color Picker</b></label><br>
+     <input type="color" id="color picker" name="color picker"><br><br>
+     <label for="file upload"><b>File Upload</b></label><br>
+     <input type="file" id="file upload" name="file upload"><br><br>
+     <p><b>Checkbox</b></p>
+     <input type="checkbox" id="checkbox" name="checkbox">
+     <label for="checkbox"><b>Subscribe to newsletter</b></label>
+     <p><b>Radio Buttons</b></p>
+     <input type="radio" id="radio" name="Gender" value="radio">
+     <label for="radio"><b>Male</b></label><br>
+     <input type="radio" id="radio" name="Gender" value="radio">
+     <label for="radio"><b>Female</b></label><br>
+  </section>
+  
+  <section>
+  <h4>Additional Fields</h4>
+     <p><b>Select Dropdown</b></p>
+     <select name="options" id="options">
+     <option>Option One</option><br>
+     </select><br><br>
+     <label for="textarea"><b>Textarea</b></label><br>
+     <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
+  </section>
+ </form>
+</body>
