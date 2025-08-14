@@ -1,68 +1,98 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" href="Mystyle.css"></head>
+
+  <link rel="stylesheet" href="Mystyle.css"></head>
+
 <body>
+  
   <h1>HTML5 Input Types Demo</h1>
+  
   <form action="/action_page.pp" target="_blank">
-  <fieldset>
+  
+    <fieldset>
     <legend>Basic Info</legend>
-     <label for="text"><b>Text</b></label><br>
+
+     <label for="text"><b>Text</b></label>
      <input type="text" id="text" name="text"><br><br>
-     <label for="password"><b>Password</b></label><br>
+
+     <label for="password"><b>Password</b></label>
      <input type="password" id="password" name="password"><br><br>
-     <label for="email"><b>Email</b></label><br>
+
+     <label for="email"><b>Email</b></label>
      <input type="email" id="email" name="email"><br><br>
-     <label for="tel"><b>Telephone</b></label><br>
+
+     <label for="tel"><b>Telephone</b></label>
      <input type="tel" id="telephone" name="telephone" pattern="[0-9] {3}-[0-9] {3}-[0-9] {4}"><br><br>
-     <label for="url"><b>URL</b></label><br>
+
+     <label for="url"><b>URL</b></label>
      <input type="url" id="url" name="url"><br><br>
+
   </fieldset>
   <fieldset>
     <legend>Numbers & Dates</legend>
-     <label for="number"><b>Number</b></label><br>
+
+     <label for="number"><b>Number</b></label>
      <input type="number" id="number" name="number"><br><br>
-     <label for="range"><b>range</b></label><br>
+
+     <label for="range"><b>range</b></label>
      <input type="range" id="range" name="range"><br><br>
-     <label for="date"><b>Date</b></label><br>
+
+     <label for="date"><b>Date</b></label>
      <input type="date" id="date" name="date"><br><br>
-     <label for="time"><b>Time</b></label><br>
+
+     <label for="time"><b>Time</b></label>
      <input type="time" id="time" name="time"><br><br>
-     <label for="Datetime-local"><b>Datetime Local</b></label><br>
+
+     <label for="Datetime-local"><b>Datetime Local</b></label>
      <input type="Datetime-local" id="Datetime-local" name="Datetime-local"><br><br>
-     <label for="month"><b>Month</b></label><br>
+
+     <label for="month"><b>Month</b></label>
      <input type="month" id="montn" name="date"><br><br>
-     <label for="week"><b>Week</b></label><br>
+
+     <label for="week"><b>Week</b></label>
      <input type="week" id="week" name="week"><br><br>
+
   </fieldset>
   
   <fieldset>
   <legend>Other Input Types</legend>
-     <label for="color picker"><b>Color Picker</b></label><br>
+
+     <label for="color picker"><b>Color Picker</b></label>
      <input type="color" id="color picker" name="color picker"><br><br>
-     <label for="file upload"><b>File Upload</b></label><br>
+
+     <label for="file upload"><b>File Upload</b></label>
      <input type="file" id="file upload" name="file upload"><br><br>
-     <p><b>Checkbox</b></p>
-     <input type="checkbox" id="checkbox" name="checkbox">
-     <label for="checkbox"><b>Subscribe to newsletter</b></label>
-     <p><b>Radio Buttons</b></p>
-     <input type="radio" id="radio" name="Gender" value="radio">
-     <label for="radio"><b>Male</b></label><br>
-     <input type="radio" id="radio" name="Gender" value="radio">
-     <label for="radio"><b>Female</b></label><br>
+
+     <label>Checkbox</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe" style="display:inline;">Subscribe to newsletter</label>
+
+     <label>Radio Buttons</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male" style="display:inline;">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female" style="display:inline;">Female</label>
+
   </fieldset>
   
   <fieldset>
    <!-- This is for additional fields-->
      <legend>Additional Fields</legend>
+
      <p><b>Select Dropdown</b></p>
      <select name="options" id="options">
      <option>Option One</option><br>
      </select><br><br>
-     <label for="textarea"><b>Textarea</b></label><br>
+
+     <label for="textarea"><b>Textarea</b></label>
      <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
+
     </fieldset>
-     <input type="submit" value="Submit">
+
+    <input type="submit" value="Submit">
+
      <input type="reset" value="Reset">
      
  </form>
